@@ -132,14 +132,15 @@ body {
 }
 
 /* sadfsdfgsdfsdfsdfsdfdf */
-.nav-link::after {
-  content: ;
+.nav-link-studio::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  color: #404bbf;
 }
 /* sdfgsdfsdfsdfsdfsdfsdfdsf */
 
@@ -350,7 +351,7 @@ body {
   background-color: #4d5ae5;
   fill: #f4f4fd;
 
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -557,6 +558,17 @@ body {
 /* ===================/MODAL===================== */
 
 /*================== PORTFOLIO PAGE============== */
+
+.nav-link-portfolio::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  color: #404bbf;
+}
 
 .portfolio-section {
   padding-top: 96px;
